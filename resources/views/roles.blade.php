@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Home - T-Sync</title>
+  <title>Roles - T-Sync</title>
 
   <!-- Google Font: Source Sans Pro -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
@@ -104,7 +104,7 @@
           <img src="dist/img/avatar5.png" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Username Here</a>
+          <a href="profile" class="d-block">Username Here</a>
         </div>
       </div>
 
@@ -113,15 +113,15 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          <li class="nav-item menu-open">
-            <a href="homepage" class="nav-link active">
+          <li class="nav-item">
+            <a href="homepage" class="nav-link">
               <i class="nav-icon fa fa-home"></i>
               <p>
                 Dashboard
               </p>
             </a>
-          <li class="nav-item">
-            <a href="#" class="nav-link">
+          <li class="nav-item menu-open">
+            <a href="#" class="nav-link active">
               <i class="fas fa-user-friends nav-icon"></i>
               <p>
                 Position
@@ -129,8 +129,8 @@
               </p>
             </a>
             <ul class="nav nav-treeview">
-            <li class="nav-item">
-                <a href="roles" class="nav-link">
+            <li class="nav-item menu-open">
+                <a href="roles" class="nav-link active">
                   <i class="fas fa-angle-double-right nav-icon"></i>
                   <p>Roles</p>
                 </a>
@@ -197,7 +197,7 @@
           </li>
           <li class="nav-item">
             <a href="#" class="nav-link">
-              <i class="nav-icon fas fa-toolbox"></i>
+              <i class="nav-icon fas fa-book"></i>
               <p>
                 Projects
                 <i class="fas fa-angle-left right"></i>
@@ -256,7 +256,7 @@
       <div class="container-fluid">
         <div class="row mb-2">
           <div class="col-sm-6">
-            <h1 class="m-0">Dashboard</h1>
+            <h1 class="m-0">Roles</h1>
           </div><!-- /.col -->
           <div class="col-sm-6">
             <ol class="breadcrumb float-sm-right">
@@ -266,257 +266,152 @@
       </div><!-- /.container-fluid -->
     </div>
     <!-- /.content-header -->
-
-    <!-- Main content -->
     <section class="content">
-      <div class="container-fluid">
-        <!-- Small boxes (Stat box) -->
+      <div class="container-fluid" >
         <div class="row">
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-info">
-              <div class="inner">
-                <h3>0</h3>
-
-                <p>Projects</p>
-              </div>
-              <div class="icon">
-                <i class="fas fa-toolbox"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-info">
-              <div class="inner">
-                <h3>0</h3>
-
-                <p>Members</p>
-              </div>
-              <div class="icon">
-                <i class="fas fa-user-friends"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-info">
-              <div class="inner">
-                <h3>0</h3>
-
-                <p>Position</p>
-              </div>
-              <div class="icon">
-                <i class="fas fa-bars"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-info">
-              <div class="inner">
-                <h3>0</h3>
-
-                <p>Designations</p>
-              </div>
-              <div class="icon">
-                <i class="fas fa-folder-open"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-info">
-              <div class="inner">
-                <h3>0</h3>
-
-                <p>Projects</p>
-              </div>
-              <div class="icon">
-                <i class="fas fa-toolbox"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-info">
-              <div class="inner">
-                <h3>0</h3>
-
-                <p>Pending Tasks</p>
-              </div>
-              <div class="icon">
-                <i class="fas fa-info"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-info">
-              <div class="inner">
-                <h3>0</h3>
-
-                <p>Completed Tasks</p>
-              </div>
-              <div class="icon">
-                <i class="fas fa-check-circle"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-          <div class="col-lg-3 col-6">
-            <!-- small box -->
-            <div class="small-box bg-info">
-              <div class="inner">
-                <h3>0</h3>
-
-                <p>Productivities</p>
-              </div>
-              <div class="icon">
-                <i class="fas fa-sync-alt"></i>
-              </div>
-              <a href="#" class="small-box-footer">More info <i class="fas fa-arrow-circle-right"></i></a>
-            </div>
-          </div>
-          <!-- ./col -->
-        </div>
-        </div>
-        <div class="row">
-          <div class="col-12">
+          <div class="col-12" >
             <div class="card">
               <div class="card-header">
-                <h3 class="card-title">Pending Tasks</h3>
-
-                <div class="card-tools">
-                  <div class="input-group input-group-sm" style="width: 150px;">
-                    <input type="text" name="table_search" class="form-control float-right" placeholder="Search">
-
-                    <div class="input-group-append">
-                      <button type="submit" class="btn btn-default">
-                        <i class="fas fa-search"></i>
-                      </button>
-                    </div>
-                  </div>
-                </div>
+                <h3 class="card-title">Roles Information</h3>
+                <div class="float-right">
+                  <button type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#modal-add-new"><i class="fas fa-user-plus"></i>Add New Roles</button>
+              </div>
               </div>
               <!-- /.card-header -->
-              <div class="card-body table-responsive p-0" style="height: 300px;">
-                <table class="table table-head-fixed text-nowrap">
+              <div class="card-body">
+                <table id="example1" class="table table-bordered table-striped">
                   <thead>
-                    <tr>
-                      <th>No.</th>
-                      <th>Projects</th>
-                      <th>Task</th>
-                      <th>Duration</th>
-                      <th>Status</th>
-                      <th>Date</th>
-                      <th>Manage</th>
-                    </tr>
+                  <tr>
+                    <th width = "5%">No.</th>
+                    <th width = "10%">Name</th>
+                    <th width = "50%">Notes</th>
+                    <th width = "10%">Status</th>
+                    <th width = "10%">Date</th>
+                    <th width = "35%"></th>
+
+                  </tr>
                   </thead>
                   <tbody>
-                    <tr>
-                      <td>1</td>
-                      <td>Company Management System</td>
-                      <td>Create Database</td>
-                      <td>1 Week</td>
-                      <td>In Progress</td>
-                      <td>February 20, 2024</td>
-                      <td>Project Manager</td>
-                    </tr>
-                    <tr>
-                      <td>1</td>
-                      <td>Company Management System</td>
-                      <td>Create Database</td>
-                      <td>1 Week</td>
-                      <td>In Progress</td>
-                      <td>February 20, 2024</td>
-                      <td>Project Manager</td>
-                    </tr>
-                    <tr>
-                      <td>1</td>
-                      <td>Company Management System</td>
-                      <td>Create Database</td>
-                      <td>1 Week</td>
-                      <td>In Progress</td>
-                      <td>February 20, 2024</td>
-                      <td>Project Manager</td>
-                    </tr>
-                    <tr>
-                      <td>1</td>
-                      <td>Company Management System</td>
-                      <td>Create Database</td>
-                      <td>1 Week</td>
-                      <td>In Progress</td>
-                      <td>February 20, 2024</td>
-                      <td>Project Manager</td>
-                    </tr>
-                    <tr>
-                      <td>1</td>
-                      <td>Company Management System</td>
-                      <td>Create Database</td>
-                      <td>1 Week</td>
-                      <td>In Progress</td>
-                      <td>February 20, 2024</td>
-                      <td>Project Manager</td>
-                    </tr>
-                    <tr>
-                      <td>1</td>
-                      <td>Company Management System</td>
-                      <td>Create Database</td>
-                      <td>1 Week</td>
-                      <td>In Progress</td>
-                      <td>February 20, 2024</td>
-                      <td>Project Manager</td>
-                    </tr>
-                    <tr>
-                      <td>1</td>
-                      <td>Company Management System</td>
-                      <td>Create Database</td>
-                      <td>1 Week</td>
-                      <td>In Progress</td>
-                      <td>February 20, 2024</td>
-                      <td>Project Manager</td>
-                    </tr>
-                    <tr>
-                      <td>1</td>
-                      <td>Company Management System</td>
-                      <td>Create Database</td>
-                      <td>1 Week</td>
-                      <td>In Progress</td>
-                      <td>February 20, 2024</td>
-                      <td>Project Manager</td>
-                    </tr>
-                  </tbody>
-                </table>
+
+                      <tr id = >
+                        <td>1</td>
+                        <td>Web Development</td>
+                        <td>This category has two main parts frontend and backend and deal with websites and webapps and api's</td>
+                        <td>Active</td>
+                        <td>February 20, 2024</td>
+                        <td>
+                            
+                          <button class="btn btn-info btn-sm btn-edit">
+                              <i class="fas fa-pencil-alt"></i>
+                              Edit
+                          </button>
+                          <button class="btn btn-danger btn-sm btn-delete">
+                              <i class="fas fa-trash"></i>
+                              Delete
+                          </button>
+                        </td>
+                      </tr>
+
+                      <tr id = >
+                        <td>2</td>
+                        <td>Mobile Development</td>
+                        <td>This category deal with android and ios mobiles and some api's</td>
+                        <td>Active</td>
+                        <td>February 29, 2024</td>
+                        <td>
+                            
+                          <button class="btn btn-info btn-sm btn-edit">
+                              <i class="fas fa-pencil-alt"></i>
+                              Edit
+                          </button>
+                          <button class="btn btn-danger btn-sm btn-delete">
+                              <i class="fas fa-trash"></i>
+                              Delete
+                          </button>
+                        </td>
+                      </tr>
+
+              <form id = "form_new">
+            <div class="modal fade" id="modal-add-new">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h4 class="modal-title">New Roles</h4>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <input type="hidden" name="type" id="type" value = "insert">
+                    <div class="form-group">
+                      <label>No.</label>
+                      <input type="text" class="form-control" name="Super_Admin_Name" id="Super_Admin_Name" placeholder="#">
+                    </div>
+                    <div class="form-group">
+                      <label>Name</label>
+                      <input type="text" class="form-control" name="Super_Admin_Username"  id="Super_Admin_Username" placeholder="Name">
+                    </div>
+                    <div class="form-group">
+                      <label>Notes</label>
+                      <input type="text" class="form-control" name="Super_Admin_Password" id="Super_Admin_Password" placeholder="Enter Description">
+                    </div>
+                    <div class="form-group">
+                      <label>Date</label>
+                      <input type="date" class="form-control" name="Super_Admin_Name" id="Super_Admin_Name" placeholder="Name">
+                    </div>
+                  <div class="modal-footer justify-content-between">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                    <input type="submit" class="btn btn-primary" id = "btnAddNewRecord" value = "Add New Record">
+                  </div>
+                </div>
+                <!-- /.modal-content -->
               </div>
-              <!-- /.card-body -->
+              <!-- /.modal-dialog -->
             </div>
-            <!-- /.card -->
+            <!-- /.modal -->
+            </div>
+            </form>
+
+            <form id = "form_edit">
+          <div class="modal fade edit" id="modal-edit-administrator">
+            <div class="modal-dialog modal-lg">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h4 class="modal-title">Edit Roles</h4>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                  <input type="hidden" name="type" id="type" value = "edit">
+                  <input type="hidden" name="edit_superadmin_id" id="edit_superadmin_id">
+                  <div class="form-group">
+                    <label>Last Name</label>
+                    <input type="text" class="form-control" name="edit_Super_Admin_Name" id="edit_Super_Admin_Name" placeholder="Name">
+                  </div>
+                  <div class="form-group">
+                    <label>First Name</label>
+                    <input type="text" class="form-control" name="edit_Super_Admin_Username"  id="edit_Super_Admin_Username" placeholder="Username">
+                  </div>
+                  <div class="form-group">
+                    <label>Middle Name</label>
+                    <input type="text" class="form-control" name="edit_Super_Admin_Password" id="edit_Super_Admin_Password" placeholder="Password">
+                  </div>
+                </div>
+                <div class="modal-footer justify-content-between">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                  <input type="submit" class="btn btn-primary" id = "btnEditRecord" value = "Update Record">
+                </div>
+              </div>
+              <!-- /.modal-content -->
+            </div>
+            <!-- /.modal-dialog -->
           </div>
-        </div>
-      </div><!-- /.container-fluid -->
-      
-    </section>
-    <!-- /.content -->
-  </div>
+          <!-- /.modal -->
+      </form>
+    </div>
   <!-- /.content-wrapper -->
-  <footer class="main-footer">
-    <strong>Copyright &copy; 2024 <a href="#">T-Sync</a>.</strong>
-    All rights reserved.
-  </footer>
+
 
   <!-- Control Sidebar -->
   <aside class="control-sidebar control-sidebar-dark">
